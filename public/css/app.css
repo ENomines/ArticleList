@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+.header {
+	padding: 20px 30px;
+	text-align: right;
+}
+
+.articles .article {
+	margin-bottom: 15px;
+}
+
+.articles .article:after {
+	content: '';
+	width: 100%;
+	margin: 0 15px;
+	padding: 15px 0px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.articles .article .more-btn {
+	margin-top: 15px;
+}
+
+article .main-img {
+	margin: 0 15px 15px 0;
+}
+
+article p {
+	text-indent: 30px;
+}
+
+.adminpanel .form-group .form-control, .adminpanel .mce-tinymce {
+	margin-bottom: 15px;
+}
